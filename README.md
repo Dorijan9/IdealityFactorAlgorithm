@@ -1,3 +1,3 @@
 # IdealityFactorAlgorithm
 
-This algorithm can take in multiple pn junction diode characteristics data and calculate ideality factors, based on the current desnity input and plot graphs, coupled with the linear fit for the ideality factor on the plot. It also outputs the voltage value at which the measurement of the ideality factor was taken. 
+This algorithm can take in multiple pn junction diode characteristics data and calculate ideality factors, based on the current desnity input and plot graphs, coupled with the linear fit for the ideality factor on the plot. It also outputs the voltage value at which the measurement of the ideality factor was taken. Algorithm is based on finite difference method to obtain the slope of the plot. That is then used on linearized diode equation to obtain the value of the ideality factor. Constant temperature is assumed, although code can be relatively easily manipulated to consider the change in tempererature if neccessary. 
